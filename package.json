@@ -1,7 +1,7 @@
 {
   "name": "@multividasdotcom/mvemoji-reaction-list",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "description": "A library that provides standard Unicode emoji support across all platforms.",
   "keywords": [
@@ -17,10 +17,12 @@
   "main": "dist/index.js",
   "scripts": {
     "dev": "vite",
-    "build": "run-p gulp-build \"build-only {@}\" tsc",
+    "build": "run-p gulp-build \"build-only {@}\" type-check",
     "gulp-build": "gulp build",
     "build-only": "vite build",
-    "tsc": "tsc"
+    "type-check": "tsc",
+    "bump": "bumpp package.json --commit \"[chore]: Release v\" --push --tag",
+    "release": "npm run build && npm run bump && npm publish --access public"
   },
   "dependencies": {},
   "devDependencies": {
@@ -32,7 +34,8 @@
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0",
     "sass": "^1.69.4",
-    "npm-run-all2": "^6.1.2"
+    "npm-run-all2": "^6.1.2",
+    "bumpp": "^9.4.1"
   },
   "bugs": {
     "url": "https://github.com/multividas/mvemoji-reaction-list/issues"

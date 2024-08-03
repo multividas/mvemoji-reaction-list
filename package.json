@@ -1,7 +1,7 @@
 {
   "name": "@multividasdotcom/mvemoji-reaction-list",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "description": "A library that provides standard Unicode emoji support across all platforms.",
   "keywords": [

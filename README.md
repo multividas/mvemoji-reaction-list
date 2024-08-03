@@ -2,6 +2,16 @@
 
 A library that provides standard Unicode [emoji](https://en.wikipedia.org/wiki/Emoji) support across all platforms.
 
+## Usage
+
+```html
+<link rel="stylesheet" href="https://multividas.github.io/mvemoji-reaction-list/css/mvemoji-reaction-list.css">
+```
+
+```html
+<script src="https://multividas.github.io/mvemoji-reaction-list/js/script.js"></script>
+```
+
 ## 📚 Documentation
 
 Visit <https://developers.multividas.com/mvemoji-reaction-list/introduction/getting-started> to view the documentation.

@@ -12,6 +12,12 @@ A library that provides standard Unicode [emoji](https://en.wikipedia.org/wiki/E
 <script src="https://multividas.github.io/mvemoji-reaction-list/js/script.js"></script>
 ```
 
+## Install
+
+```sh
+npm i @multividasdotcom/mvemoji-reaction-list
+```
+
 ## 📚 Documentation
 
 Visit <https://developers.multividas.com/mvemoji-reaction-list/introduction/getting-started> to view the documentation.
